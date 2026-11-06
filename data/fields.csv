@@ -1,0 +1,16 @@
+field,label,what_it_records
+what_it_is,What it is,The product as its vendor describes it.
+pricing,Pricing,"Plans and prices in USD as shown on the vendor's page, with the unit they're sold in."
+billing_unit,Billing unit,"What you pay per: page, document, credit, statement conversion, organization or flat plan."
+price_per_page_usd,Price per page (USD),"Only where the vendor sells by the page or publishes a per-page rate. Blank where the unit isn't a page."
+free_trial,Free trial,Trial terms as stated.
+file_limits,File limits,"File types, size and page limits per file."
+input_formats,Input formats,File types it reads.
+output_formats,Output formats,File types it writes.
+fields_extracted,Fields extracted,The statement columns the vendor says it captures.
+balance_proof,Balance proof,"Whether the vendor says it checks extracted rows against the statement's printed opening, closing or summary balances."
+accuracy_claim,Accuracy claim,A published accuracy figure and whether a method is published.
+turnaround,Turnaround,How long processing takes as stated.
+coverage,Bank or region coverage,Supported banks or regions as stated.
+accounting_integration,Accounting software,How it connects to or prepares files for accounting software.
+counting_rules,Counting rules,"What counts against the allowance: blank pages, duplicates, deleted files, rollover."

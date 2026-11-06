@@ -1,0 +1,18 @@
+{
+  "bank": "Citi",
+  "business": "Harbor Lane Studio (fictional)",
+  "zerabooks_page": "https://www.zerabooks.com/citi-bank-statement-to-excel",
+  "card_statement": false,
+  "accounts": {
+    "Checking ...6630": {
+      "opening": "7412.90",
+      "closing": "7229.46"
+    },
+    "Savings ...6648": {
+      "opening": "12000.00",
+      "closing": "13004.12"
+    }
+  },
+  "fictional": true,
+  "amount_sign": "Bank: money in positive. Card: charges positive (they raise the balance owed), payments and credits negative."
+}

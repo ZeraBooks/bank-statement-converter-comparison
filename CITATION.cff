@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Bank Statement Converter Comparison"
+type: dataset
+authors:
+  - name: "Zera Books Inc. (ZeraBooks)"
+    website: "https://www.zerabooks.com"
+version: 1.0.0
+date-released: 2026-11-05
+url: "https://www.zerabooks.com/bank-statement-converter"
+repository-code: "https://github.com/ZeraBooks/bank-statement-converter-comparison"
+license: MIT
+abstract: "A dated, sourced dataset comparing bank statement converters (ZeraBooks, Dext, Hubdoc, Nanonets, AutoEntry, DocuClipper, MoneyThumb) on limits, formats, pricing and balance proof, with a cost calculator."
+keywords:
+  - bank-statement-converter
+  - comparison
+  - dataset
+  - pricing
+  - ocr

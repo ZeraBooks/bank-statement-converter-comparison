@@ -1,0 +1,14 @@
+{
+  "bank": "TD Bank",
+  "business": "Seaside Bakery LLC (fictional)",
+  "zerabooks_page": "https://www.zerabooks.com/td-bank-statement-to-excel",
+  "card_statement": false,
+  "accounts": {
+    "Business checking ...8834": {
+      "opening": "10240.55",
+      "closing": "12270.20"
+    }
+  },
+  "fictional": true,
+  "amount_sign": "Bank: money in positive. Card: charges positive (they raise the balance owed), payments and credits negative."
+}

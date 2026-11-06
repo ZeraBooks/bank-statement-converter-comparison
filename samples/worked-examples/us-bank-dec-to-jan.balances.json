@@ -1,0 +1,14 @@
+{
+  "bank": "U.S. Bank",
+  "business": "Pinecrest Auto Detailing (fictional)",
+  "zerabooks_page": "https://www.zerabooks.com/us-bank-statement-to-excel",
+  "card_statement": false,
+  "accounts": {
+    "Silver Business Checking ...2219": {
+      "opening": "3845.10",
+      "closing": "6993.87"
+    }
+  },
+  "fictional": true,
+  "amount_sign": "Bank: money in positive. Card: charges positive (they raise the balance owed), payments and credits negative."
+}

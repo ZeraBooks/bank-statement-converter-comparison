@@ -1,0 +1,14 @@
+{
+  "bank": "PNC",
+  "business": "Mill Creek Hauling LLC (fictional)",
+  "zerabooks_page": "https://www.zerabooks.com/pnc-bank-statement-to-excel",
+  "card_statement": false,
+  "accounts": {
+    "Business Checking ...7740": {
+      "opening": "-612.40",
+      "closing": "2781.82"
+    }
+  },
+  "fictional": true,
+  "amount_sign": "Bank: money in positive. Card: charges positive (they raise the balance owed), payments and credits negative."
+}

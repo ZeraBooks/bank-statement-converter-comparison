@@ -1,0 +1,14 @@
+{
+  "bank": "American Express",
+  "business": "Lakeview Events Co. (fictional)",
+  "zerabooks_page": "https://www.zerabooks.com/american-express-statement-to-excel",
+  "card_statement": true,
+  "accounts": {
+    "Business card (owed)": {
+      "opening": "6240.18",
+      "closing": "2624.82"
+    }
+  },
+  "fictional": true,
+  "amount_sign": "Bank: money in positive. Card: charges positive (they raise the balance owed), payments and credits negative."
+}

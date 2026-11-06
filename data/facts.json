@@ -1,0 +1,687 @@
+{
+  "dataset": "Bank statement converter comparison",
+  "publisher": "ZeraBooks (Zera Books Inc.)",
+  "note": "ZeraBooks makes one of the tools listed. Every fact was read on the vendor's own page on its checked date.",
+  "tools": [
+    {
+      "tool_id": "zerabooks",
+      "tool": "ZeraBooks Convert",
+      "vendor": "Zera Books Inc.",
+      "website": "https://www.zerabooks.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/bank-statement-converter"
+    },
+    {
+      "tool_id": "dext",
+      "tool": "Dext (bank statement extraction)",
+      "vendor": "Dext",
+      "website": "https://www.dext.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/dext"
+    },
+    {
+      "tool_id": "hubdoc",
+      "tool": "Hubdoc",
+      "vendor": "Xero (Hubdoc)",
+      "website": "https://www.hubdoc.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/hubdoc"
+    },
+    {
+      "tool_id": "nanonets",
+      "tool": "Nanonets bank statement converter",
+      "vendor": "Nanonets",
+      "website": "https://nanonets.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/nanonets"
+    },
+    {
+      "tool_id": "autoentry",
+      "tool": "AutoEntry",
+      "vendor": "AutoEntry (IRIS)",
+      "website": "https://www.autoentry.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/autoentry"
+    },
+    {
+      "tool_id": "docuclipper",
+      "tool": "DocuClipper",
+      "vendor": "DocuClipper",
+      "website": "https://www.docuclipper.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/docuclipper"
+    },
+    {
+      "tool_id": "moneythumb",
+      "tool": "MoneyThumb",
+      "vendor": "MoneyThumb",
+      "website": "https://www.moneythumb.com",
+      "zerabooks_comparison_page": "https://www.zerabooks.com/alternatives/moneythumb"
+    }
+  ],
+  "fields": [
+    {
+      "field": "what_it_is",
+      "label": "What it is",
+      "what_it_records": "The product as its vendor describes it."
+    },
+    {
+      "field": "pricing",
+      "label": "Pricing",
+      "what_it_records": "Plans and prices in USD as shown on the vendor's page, with the unit they're sold in."
+    },
+    {
+      "field": "billing_unit",
+      "label": "Billing unit",
+      "what_it_records": "What you pay per: page, document, credit, statement conversion, organization or flat plan."
+    },
+    {
+      "field": "price_per_page_usd",
+      "label": "Price per page (USD)",
+      "what_it_records": "Only where the vendor sells by the page or publishes a per-page rate. Blank where the unit isn't a page."
+    },
+    {
+      "field": "free_trial",
+      "label": "Free trial",
+      "what_it_records": "Trial terms as stated."
+    },
+    {
+      "field": "file_limits",
+      "label": "File limits",
+      "what_it_records": "File types, size and page limits per file."
+    },
+    {
+      "field": "input_formats",
+      "label": "Input formats",
+      "what_it_records": "File types it reads."
+    },
+    {
+      "field": "output_formats",
+      "label": "Output formats",
+      "what_it_records": "File types it writes."
+    },
+    {
+      "field": "fields_extracted",
+      "label": "Fields extracted",
+      "what_it_records": "The statement columns the vendor says it captures."
+    },
+    {
+      "field": "balance_proof",
+      "label": "Balance proof",
+      "what_it_records": "Whether the vendor says it checks extracted rows against the statement's printed opening, closing or summary balances."
+    },
+    {
+      "field": "accuracy_claim",
+      "label": "Accuracy claim",
+      "what_it_records": "A published accuracy figure and whether a method is published."
+    },
+    {
+      "field": "turnaround",
+      "label": "Turnaround",
+      "what_it_records": "How long processing takes as stated."
+    },
+    {
+      "field": "coverage",
+      "label": "Bank or region coverage",
+      "what_it_records": "Supported banks or regions as stated."
+    },
+    {
+      "field": "accounting_integration",
+      "label": "Accounting software",
+      "what_it_records": "How it connects to or prepares files for accounting software."
+    },
+    {
+      "field": "counting_rules",
+      "label": "Counting rules",
+      "what_it_records": "What counts against the allowance: blank pages, duplicates, deleted files, rollover."
+    }
+  ],
+  "facts": [
+    {
+      "tool_id": "zerabooks",
+      "field": "what_it_is",
+      "value": "A bank statement converter that reads PDF bank, card, check and brokerage statements and proves each account against its printed balances. Included with the ZeraBooks General Ledger in one subscription.",
+      "source_url": "https://www.zerabooks.com/bank-statement-converter",
+      "checked": "2026-11-05",
+      "note": "ZeraBooks publishes this dataset."
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "pricing",
+      "value": "1,000 pages a month: $149 billed monthly, or $79 a month billed annually ($948 a year). 2,500 pages: $249 monthly or $179 billed annually. 5,000 pages: $599 monthly or $449 billed annually.",
+      "source_url": "https://www.zerabooks.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "billing_unit",
+      "value": "Pages per month",
+      "source_url": "https://www.zerabooks.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "price_per_page_usd",
+      "value": "0.149 monthly or 0.079 billed annually at 1,000 pages; 0.0716 annually at 2,500; 0.0898 annually at 5,000",
+      "source_url": "https://www.zerabooks.com/pricing",
+      "checked": "2026-11-05",
+      "note": "Plan price divided by pages, if every page is used."
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "free_trial",
+      "value": "7 days; a card at checkout, nothing charged for 7 days.",
+      "source_url": "https://www.zerabooks.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "file_limits",
+      "value": "PDF only, up to 50 MB and 500 pages per file.",
+      "source_url": "https://www.zerabooks.com/help/convert-documents/upload-documents",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "input_formats",
+      "value": "PDF (digital or scanned)",
+      "source_url": "https://www.zerabooks.com/help/convert-documents/upload-documents",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "output_formats",
+      "value": "Excel and CSV, in Standard, Money in and out, QuickBooks-ready, Xero-ready, Sage-ready and All details layouts.",
+      "source_url": "https://www.zerabooks.com/help/convert-export/choose-a-download-format",
+      "checked": "2026-11-05",
+      "note": "CSV and Excel only; no .qbo, IIF or OFX files."
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "fields_extracted",
+      "value": "Date, Description, Amount, Money In, Money Out, Balance, Account, Account Last 4, Cardholder, Type, Check Number, Source File.",
+      "source_url": "https://www.zerabooks.com/help/convert-export/choose-a-download-format",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "balance_proof",
+      "value": "Yes. Each account (and each cardholder on card statements) is checked against the opening, running and closing balances the statement prints; it's marked Proven only when it ties to the cent.",
+      "source_url": "https://www.zerabooks.com/help/convert-documents/how-convert-proves-a-statement",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "accounting_integration",
+      "value": "Downloads QuickBooks-, Xero- and Sage-ready CSV layouts to import. No direct connection to accounting software.",
+      "source_url": "https://www.zerabooks.com/help/convert-export/choose-a-download-format",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "zerabooks",
+      "field": "counting_rules",
+      "value": "Monthly pages reset each month; annual billing gives the year's 12,000 pages upfront.",
+      "source_url": "https://www.zerabooks.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "what_it_is",
+      "value": "Bank Statement Extraction, an add-on to Dext's receipts and bills product.",
+      "source_url": "https://www.dext.com/us/pricing/prepare-direct/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "pricing",
+      "value": "Business plan $25.21 a month or $302.50 billed annually (250 documents, 5 users). Bank Statement Extraction add-on from $13.00 a month for 50 documents ($0.26 each, $156.00 billed annually), or $0.32 a document pay as you go.",
+      "source_url": "https://www.dext.com/us/business/pricing/extraction-pricing?tab=bse",
+      "checked": "2026-11-05",
+      "note": "USD excl. tax."
+    },
+    {
+      "tool_id": "dext",
+      "field": "billing_unit",
+      "value": "Documents (every page of a statement counts)",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "price_per_page_usd",
+      "value": "0.26 in the 50-document bundle; 0.32 pay as you go",
+      "source_url": "https://www.dext.com/us/business/pricing/extraction-pricing?tab=bse",
+      "checked": "2026-11-05",
+      "note": "Plus the Dext plan."
+    },
+    {
+      "tool_id": "dext",
+      "field": "free_trial",
+      "value": "14 days, no card; free credits include 10 sheets of bank statement extraction.",
+      "source_url": "https://www.dext.com/us/pricing/prepare-direct/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "file_limits",
+      "value": "One statement for a single account per file; 50 MB, 300 pages; scans at 200 dpi.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "input_formats",
+      "value": "PDF or TIFF",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "output_formats",
+      "value": "CSV export; original PDF downloadable.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": "Statements can't be published to accounting software."
+    },
+    {
+      "tool_id": "dext",
+      "field": "turnaround",
+      "value": "Digital PDFs typically minutes; scans up to 24 hours, about 75% within 4 hours.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "coverage",
+      "value": "Over 500 supported banks.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "accounting_integration",
+      "value": "Bank statements can't be published to accounting software; synced bank accounts can't be used.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "dext",
+      "field": "counting_rules",
+      "value": "Every page of a processed statement counts, including pages with no transactions, even if deleted. Bundle documents don't roll over. Over the limit, data isn't extracted until the next bill date or an upgrade.",
+      "source_url": "https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "what_it_is",
+      "value": "Document capture that extracts data from bank statements, bills, invoices and receipts and syncs to Xero and QuickBooks Online.",
+      "source_url": "https://www.hubdoc.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "pricing",
+      "value": "$12 a month (USD). Included in Xero Starter, Standard and Premium plans (Early, Growing and Established in the U.S.).",
+      "source_url": "https://www.hubdoc.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "billing_unit",
+      "value": "Per organization, flat",
+      "source_url": "https://www.hubdoc.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "free_trial",
+      "value": "30 days, no card.",
+      "source_url": "https://www.hubdoc.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "file_limits",
+      "value": "PDF, all pages, up to 100 pages and 35 MB; 200 DPI minimum; one statement only; English; up to 40 inches / 2,880 points.",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "input_formats",
+      "value": "PDF",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "output_formats",
+      "value": "CSV for QuickBooks or Xero; a Xero CSV is split into a zip above 1,000 transactions.",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "fields_extracted",
+      "value": "Debit statements: date, description, amount. Credit statements: posted date, transaction date, description, amount.",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "balance_proof",
+      "value": "Errors when totals don't match or there's no opening or closing date.",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "coverage",
+      "value": "Canada and U.S. only. A supported-bank list (including Chase, Citibank, PNC, TD Bank, U.S. Bank, Wells Fargo, AMEX); for banks not listed, accuracy might vary and extraction is provided \"as is\".",
+      "source_url": "https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "hubdoc",
+      "field": "accounting_integration",
+      "value": "Syncs to Xero and QuickBooks Online.",
+      "source_url": "https://www.hubdoc.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "what_it_is",
+      "value": "A bank statement converter page on Nanonets' AI workflow platform.",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "pricing",
+      "value": "Starter free with $50 in credits, then $100 a month for 100 credits (up to 3 users). Growth quoted, Enterprise custom. Block runs $0.02 simple, $0.10 standard AI, $0.30 complex AI.",
+      "source_url": "https://nanonets.com/pricing",
+      "checked": "2026-11-05",
+      "note": "No per-page or per-statement price published."
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "billing_unit",
+      "value": "Prepaid credits",
+      "source_url": "https://nanonets.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "file_limits",
+      "value": "PDF, PNG, JPG up to 50 MB.",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "input_formats",
+      "value": "PDF, PNG, JPG",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "output_formats",
+      "value": "XLSX, CSV, JSON",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "balance_proof",
+      "value": "Not mentioned. The page's FAQ says to review and validate by comparing rows against the original PDF, and links each transaction back to its place on the statement.",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "accuracy_claim",
+      "value": "\"99%+ accuracy\", no method published.",
+      "source_url": "https://nanonets.com/bank-statement-converter/",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "nanonets",
+      "field": "counting_rules",
+      "value": "Credits are prepaid, shared and never expire.",
+      "source_url": "https://nanonets.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "what_it_is",
+      "value": "Data capture for bills, receipts and bank statements, sold in credits.",
+      "source_url": "https://www.autoentry.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "pricing",
+      "value": "A month, USD excl. VAT: Bronze 50 credits $13, Silver 100 $24, Gold 200 $46, Platinum 500 $103, Diamond 1,500 $298, Sapphire 2,500 $469.",
+      "source_url": "https://www.autoentry.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "billing_unit",
+      "value": "Credits; 3 credits per bank statement page",
+      "source_url": "https://www.autoentry.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "free_trial",
+      "value": "25 free trial credits (8 bank statement pages).",
+      "source_url": "https://www.autoentry.com/pricing",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "input_formats",
+      "value": "Scanned paper statements and ePDFs: bank, credit and debit card statements.",
+      "source_url": "https://help.autoentry.com/en/articles/1312890-upload-a-bank-statement-to-autoentry",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "output_formats",
+      "value": "Excel or CSV download.",
+      "source_url": "https://help.autoentry.com/en/articles/1312890-upload-a-bank-statement-to-autoentry",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "fields_extracted",
+      "value": "Account number, date, description, debit, credit, balance, cheque number.",
+      "source_url": "https://help.autoentry.com/en/articles/1312890-upload-a-bank-statement-to-autoentry",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "autoentry",
+      "field": "counting_rules",
+      "value": "3 credits for every page uploaded, including blank pages, summaries and notes. Unused credits roll over 3 months. Rejected statements refunded; duplicates flagged and blocked, but charged unless rejected.",
+      "source_url": "https://help.autoentry.com/en/articles/1312890-upload-a-bank-statement-to-autoentry",
+      "checked": "2026-11-05",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "what_it_is",
+      "value": "A bank statement and financial document converter.",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "pricing",
+      "value": "Month to month: Starter 60 pages $29, Business 640 pages $159, Business 1,000 pages $219, Enterprise 1,800 pages $399; 1,500 pages $299, 3,000 pages $599, 5,000 pages $899. 30% off billed annually (Starter $20.30, Business 640 $111.30, Business 1,000 $153.30, Enterprise 1,800 $279.30 a month).",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "billing_unit",
+      "value": "Pages per month",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "price_per_page_usd",
+      "value": "0.48 (Starter) to 0.22 (Business 1,000) month to month; 0.15 at Business 1,000 billed annually",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-15",
+      "note": "Plan price divided by pages, if every page is used."
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "free_trial",
+      "value": "14 days, no card, up to 120 pages.",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "output_formats",
+      "value": "Excel, CSV, QBO, IIF, OFX, QFX, QIF",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "balance_proof",
+      "value": "Says it runs reconciliation checks on the output.",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "accuracy_claim",
+      "value": "\"99.9% field-level accuracy\", no method published.",
+      "source_url": "https://www.docuclipper.com/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "input_formats",
+      "value": "Digital PDFs and scanned documents.",
+      "source_url": "https://www.docuclipper.com/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "docuclipper",
+      "field": "counting_rules",
+      "value": "Pages don't roll over.",
+      "source_url": "https://www.docuclipper.com/pricing/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "what_it_is",
+      "value": "PDF and bank file converters for QuickBooks, Quicken, Xero and spreadsheets, online and desktop.",
+      "source_url": "https://www.moneythumb.com/quickbooks-converters-benefits/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "pricing",
+      "value": "MoneyThumb Online: $24.95 a month for 5 conversions, $49.95 for 20, $99.95 for 60. Yearly: $199.95 for 60, $399.95 for 240, $799.95 for 800.",
+      "source_url": "https://www.moneythumb.com/quickbooks-converters-benefits/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "billing_unit",
+      "value": "Conversions: one account on one monthly statement, however many pages",
+      "source_url": "https://www.moneythumb.com/quickbooks-converters-benefits/",
+      "checked": "2026-10-15",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "input_formats",
+      "value": "PDF, OFX, CSV, QFX, QIF",
+      "source_url": "https://www.moneythumb.com/quickbooks-converters-benefits/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "output_formats",
+      "value": ".qbo (Web Connect) for QuickBooks; QFX for Quicken; XLS or CSV for spreadsheets.",
+      "source_url": "https://www.moneythumb.com/spreadsheet-converters-desktop/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "balance_proof",
+      "value": "Automatic reconciliation compares transaction totals with the statement's summary.",
+      "source_url": "https://www.moneythumb.com/accounting/",
+      "checked": "2026-10-11",
+      "note": ""
+    },
+    {
+      "tool_id": "moneythumb",
+      "field": "counting_rules",
+      "value": "Unused conversions roll over when the subscription renews.",
+      "source_url": "https://www.moneythumb.com/quickbooks-converters-benefits/",
+      "checked": "2026-10-15",
+      "note": ""
+    }
+  ]
+}

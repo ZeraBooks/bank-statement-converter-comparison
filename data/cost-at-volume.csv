@@ -1,0 +1,85 @@
+pages_per_month,statements_per_month,organizations,billing,tool,plan,monthly_cost_usd,cost_per_page_usd,note
+100,25,12,monthly,ZeraBooks,"ZeraBooks 1,000",149.00,1.49,includes the ZeraBooks General Ledger
+100,25,12,monthly,DocuClipper,Business 640,159.00,1.59,
+100,25,12,monthly,AutoEntry,Platinum (300 credits),103.00,1.03,3 credits a page; monthly prices only
+100,25,12,monthly,MoneyThumb,Online 60 (25 statements),99.95,1.00,"priced per account statement, not per page"
+100,25,12,monthly,Hubdoc,12 organizations x $12,144.00,1.44,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+100,25,12,monthly,Dext,Business plan + $0.32 a page,57.21,0.57,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+100,25,12,monthly,Nanonets,,,,no per-page or per-statement price published
+100,25,12,annual,ZeraBooks,"ZeraBooks 1,000",79.00,0.79,includes the ZeraBooks General Ledger
+100,25,12,annual,DocuClipper,Business 640,111.30,1.11,
+100,25,12,annual,AutoEntry,Platinum (300 credits),103.00,1.03,3 credits a page; monthly prices only
+100,25,12,annual,MoneyThumb,Yearly 800 (300 statements a year),66.66,0.67,"priced per account statement, not per page"
+100,25,12,annual,Hubdoc,12 organizations x $12,144.00,1.44,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+100,25,12,annual,Dext,Business plan + $0.32 a page,57.21,0.57,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+100,25,12,annual,Nanonets,,,,no per-page or per-statement price published
+250,62,31,monthly,ZeraBooks,"ZeraBooks 1,000",149.00,0.60,includes the ZeraBooks General Ledger
+250,62,31,monthly,DocuClipper,Business 640,159.00,0.64,
+250,62,31,monthly,AutoEntry,Diamond (750 credits),298.00,1.19,3 credits a page; monthly prices only
+250,62,31,monthly,MoneyThumb,,,,past the largest published monthly plan (60)
+250,62,31,monthly,Hubdoc,31 organizations x $12,372.00,1.49,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+250,62,31,monthly,Dext,Business plan + $0.32 a page,105.21,0.42,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+250,62,31,monthly,Nanonets,,,,no per-page or per-statement price published
+250,62,31,annual,ZeraBooks,"ZeraBooks 1,000",79.00,0.32,includes the ZeraBooks General Ledger
+250,62,31,annual,DocuClipper,Business 640,111.30,0.45,
+250,62,31,annual,AutoEntry,Diamond (750 credits),298.00,1.19,3 credits a page; monthly prices only
+250,62,31,annual,MoneyThumb,Yearly 800 (744 statements a year),66.66,0.27,"priced per account statement, not per page"
+250,62,31,annual,Hubdoc,31 organizations x $12,372.00,1.49,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+250,62,31,annual,Dext,Business plan + $0.32 a page,105.21,0.42,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+250,62,31,annual,Nanonets,,,,no per-page or per-statement price published
+500,125,62,monthly,ZeraBooks,"ZeraBooks 1,000",149.00,0.30,includes the ZeraBooks General Ledger
+500,125,62,monthly,DocuClipper,Business 640,159.00,0.32,
+500,125,62,monthly,AutoEntry,Diamond (1500 credits),298.00,0.60,3 credits a page; monthly prices only
+500,125,62,monthly,MoneyThumb,,,,past the largest published monthly plan (60)
+500,125,62,monthly,Hubdoc,62 organizations x $12,744.00,1.49,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+500,125,62,monthly,Dext,Business plan + $0.32 a page,185.21,0.37,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+500,125,62,monthly,Nanonets,,,,no per-page or per-statement price published
+500,125,62,annual,ZeraBooks,"ZeraBooks 1,000",79.00,0.16,includes the ZeraBooks General Ledger
+500,125,62,annual,DocuClipper,Business 640,111.30,0.22,
+500,125,62,annual,AutoEntry,Diamond (1500 credits),298.00,0.60,3 credits a page; monthly prices only
+500,125,62,annual,MoneyThumb,,,,past the largest published yearly plan (800)
+500,125,62,annual,Hubdoc,62 organizations x $12,744.00,1.49,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+500,125,62,annual,Dext,Business plan + $0.32 a page,185.21,0.37,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+500,125,62,annual,Nanonets,,,,no per-page or per-statement price published
+1000,250,125,monthly,ZeraBooks,"ZeraBooks 1,000",149.00,0.15,includes the ZeraBooks General Ledger
+1000,250,125,monthly,DocuClipper,"Business 1,000",219.00,0.22,
+1000,250,125,monthly,AutoEntry,,,,"3000 credits is past the largest published plan (2,500)"
+1000,250,125,monthly,MoneyThumb,,,,past the largest published monthly plan (60)
+1000,250,125,monthly,Hubdoc,125 organizations x $12,1500.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+1000,250,125,monthly,Dext,Business plan + $0.32 a page,345.21,0.35,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+1000,250,125,monthly,Nanonets,,,,no per-page or per-statement price published
+1000,250,125,annual,ZeraBooks,"ZeraBooks 1,000",79.00,0.08,includes the ZeraBooks General Ledger
+1000,250,125,annual,DocuClipper,"Business 1,000",153.30,0.15,
+1000,250,125,annual,AutoEntry,,,,"3000 credits is past the largest published plan (2,500)"
+1000,250,125,annual,MoneyThumb,,,,past the largest published yearly plan (800)
+1000,250,125,annual,Hubdoc,125 organizations x $12,1500.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+1000,250,125,annual,Dext,Business plan + $0.32 a page,345.21,0.35,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+1000,250,125,annual,Nanonets,,,,no per-page or per-statement price published
+2500,625,312,monthly,ZeraBooks,"ZeraBooks 2,500",249.00,0.10,includes the ZeraBooks General Ledger
+2500,625,312,monthly,DocuClipper,"3,000",599.00,0.24,
+2500,625,312,monthly,AutoEntry,,,,"7500 credits is past the largest published plan (2,500)"
+2500,625,312,monthly,MoneyThumb,,,,past the largest published monthly plan (60)
+2500,625,312,monthly,Hubdoc,312 organizations x $12,3744.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+2500,625,312,monthly,Dext,Business plan + $0.32 a page,825.21,0.33,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+2500,625,312,monthly,Nanonets,,,,no per-page or per-statement price published
+2500,625,312,annual,ZeraBooks,"ZeraBooks 2,500",179.00,0.07,includes the ZeraBooks General Ledger
+2500,625,312,annual,DocuClipper,"3,000",419.30,0.17,
+2500,625,312,annual,AutoEntry,,,,"7500 credits is past the largest published plan (2,500)"
+2500,625,312,annual,MoneyThumb,,,,past the largest published yearly plan (800)
+2500,625,312,annual,Hubdoc,312 organizations x $12,3744.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+2500,625,312,annual,Dext,Business plan + $0.32 a page,825.21,0.33,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+2500,625,312,annual,Nanonets,,,,no per-page or per-statement price published
+5000,1250,625,monthly,ZeraBooks,"ZeraBooks 5,000",599.00,0.12,includes the ZeraBooks General Ledger
+5000,1250,625,monthly,DocuClipper,"5,000",899.00,0.18,
+5000,1250,625,monthly,AutoEntry,,,,"15000 credits is past the largest published plan (2,500)"
+5000,1250,625,monthly,MoneyThumb,,,,past the largest published monthly plan (60)
+5000,1250,625,monthly,Hubdoc,625 organizations x $12,7500.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+5000,1250,625,monthly,Dext,Business plan + $0.32 a page,1625.21,0.33,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+5000,1250,625,monthly,Nanonets,,,,no per-page or per-statement price published
+5000,1250,625,annual,ZeraBooks,"ZeraBooks 5,000",449.00,0.09,includes the ZeraBooks General Ledger
+5000,1250,625,annual,DocuClipper,"5,000",629.30,0.13,
+5000,1250,625,annual,AutoEntry,,,,"15000 credits is past the largest published plan (2,500)"
+5000,1250,625,annual,MoneyThumb,,,,past the largest published yearly plan (800)
+5000,1250,625,annual,Hubdoc,625 organizations x $12,7500.00,1.50,"per organization; included in Xero Starter, Standard and Premium; statements up to 100 pages, Canada and U.S."
+5000,1250,625,annual,Dext,Business plan + $0.32 a page,1625.21,0.33,pay-as-you-go rate; a 50-document bundle is $13 a month; larger bundles aren't on the price page
+5000,1250,625,annual,Nanonets,,,,no per-page or per-statement price published

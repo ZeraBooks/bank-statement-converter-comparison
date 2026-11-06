@@ -1,0 +1,131 @@
+{
+  "name": "bank-statement-converter-comparison",
+  "version": "1.0.0",
+  "released": "2026-11-05",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/bank-statement-converter",
+  "repository": "https://github.com/ZeraBooks/bank-statement-converter-comparison",
+  "license_code": "MIT",
+  "license_data": "CC-BY-4.0",
+  "fictional_data": true,
+  "file_counts": {
+    "data": 8,
+    "docs": 1,
+    "samples": 10,
+    "schema": 1
+  },
+  "files": [
+    {
+      "path": "data/bank-statement-layouts.csv",
+      "bytes": 2816,
+      "sha256": "165ba7cb7d92d6b47b3a11f95d3ea5f98f264c1bbd8a6a52f7c98b70bcdf09f6",
+      "rows": 5
+    },
+    {
+      "path": "data/cost-at-volume.csv",
+      "bytes": 9206,
+      "sha256": "9729f3b10786a8e3caec761dfb776752f4535c3be570d0a087f28bc8bb290e84",
+      "rows": 84
+    },
+    {
+      "path": "data/facts.csv",
+      "bytes": 12409,
+      "sha256": "d5206df6af575cc48fa401359b281d8a15e1bb8fd95b89d4e9cd0e9c874cc073",
+      "rows": 69
+    },
+    {
+      "path": "data/facts.json",
+      "bytes": 25423,
+      "sha256": "5a1d140fe6b3b7960ac00bd53a4cfc78e3d0153d295a8076a726908c7fbc0c1d"
+    },
+    {
+      "path": "data/fields.csv",
+      "bytes": 1354,
+      "sha256": "d0e1eddb71e57758351afafe4f027e289f461aea250ccbe9af70627bb5ed3e10",
+      "rows": 15
+    },
+    {
+      "path": "data/matrix.csv",
+      "bytes": 6172,
+      "sha256": "63f37f4ae2bcd4cbc927bdbee4c3d77265c18320acd844afe4491068fc63ff5d",
+      "rows": 7
+    },
+    {
+      "path": "data/plans.csv",
+      "bytes": 2488,
+      "sha256": "f1c56b1670010a87bae812b65aadca440323c7c8442be1221e52d122a19d71b8",
+      "rows": 24
+    },
+    {
+      "path": "data/tools.csv",
+      "bytes": 838,
+      "sha256": "3eb950d683f239cb3f15162b79c824ab3dff7edc9f158f4c257c5fa02a646a2d",
+      "rows": 7
+    },
+    {
+      "path": "docs/comparison.md",
+      "bytes": 15580,
+      "sha256": "8e445bdfa633791eff16ca22aceb5494fbccf342aa285c9a75e0eedae43bbca9"
+    },
+    {
+      "path": "samples/worked-examples/amex-three-card-members-2026-10.balances.json",
+      "bytes": 455,
+      "sha256": "52cc0f982f5d587920c673e391696fef16ecd1d60faf2ed3563e7cd853612331"
+    },
+    {
+      "path": "samples/worked-examples/amex-three-card-members-2026-10.csv",
+      "bytes": 444,
+      "sha256": "2b5bdcac856aa3a1c238c52604b93281695dedf5d82748c089719633c1850e8e",
+      "rows": 7
+    },
+    {
+      "path": "samples/worked-examples/citi-two-accounts-2026-06.balances.json",
+      "bytes": 521,
+      "sha256": "7e1ecb98b1a34f37127ecb8f1c7eb9e6f6f753241775ccec293854d9cce2f842"
+    },
+    {
+      "path": "samples/worked-examples/citi-two-accounts-2026-06.csv",
+      "bytes": 464,
+      "sha256": "a7a6c840c4103cf7fd6dc7f63d63f2c653f67a52a5329f99aec626bcf00f26b3",
+      "rows": 7
+    },
+    {
+      "path": "samples/worked-examples/pnc-starts-overdrawn-2026-06.balances.json",
+      "bytes": 443,
+      "sha256": "503bf39c2c6f11736c61a291d742a9f4ecb758545e12bd7e3f344a5e0e43eed7"
+    },
+    {
+      "path": "samples/worked-examples/pnc-starts-overdrawn-2026-06.csv",
+      "bytes": 441,
+      "sha256": "cb8952379b181fe7d5949e532555bbb55972d38e8446b3bd16cfff90f9dd1721",
+      "rows": 6
+    },
+    {
+      "path": "samples/worked-examples/td-bank-check-gap-2026-09.balances.json",
+      "bytes": 444,
+      "sha256": "6bf5e4317c082ea6d0071f938c7719a7b7ebd8e9b68b4a98fe133e801967bbbb"
+    },
+    {
+      "path": "samples/worked-examples/td-bank-check-gap-2026-09.csv",
+      "bytes": 504,
+      "sha256": "387c87f29c0498d4acfaa16336d1f533a054431b7efc5b0d00f4cf72a25d53f4",
+      "rows": 8
+    },
+    {
+      "path": "samples/worked-examples/us-bank-dec-to-jan.balances.json",
+      "bytes": 457,
+      "sha256": "96c7fc32751d8cdff0aff8a23a59defe96fcdfcc3db57aaa4db792d6ea9aac92"
+    },
+    {
+      "path": "samples/worked-examples/us-bank-dec-to-jan.csv",
+      "bytes": 550,
+      "sha256": "40611ab938e2368ac2eb900c9d0db3a500833fdf67293d77942a44d0f6b9a63a",
+      "rows": 7
+    },
+    {
+      "path": "schema/fact.schema.json",
+      "bytes": 986,
+      "sha256": "5c410f42b0f214bd3c4bfd4eabff585983e31b8749c01a740ca2a584d29e763d"
+    }
+  ]
+}

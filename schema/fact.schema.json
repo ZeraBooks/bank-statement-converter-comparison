@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bank-statement-converter-comparison/schema/fact.schema.json",
+  "title": "One sourced fact (a row of data/facts.csv)",
+  "type": "object",
+  "required": ["tool_id", "field", "value", "source_url", "checked"],
+  "additionalProperties": false,
+  "properties": {
+    "tool_id": {"type": "string", "description": "From data/tools.csv."},
+    "field": {"type": "string", "description": "From data/fields.csv."},
+    "value": {"type": "string", "minLength": 1, "description": "What the vendor's page says. Never blank: a fact the page doesn't state is left out."},
+    "source_url": {"type": "string", "pattern": "^https://", "description": "A page on the vendor's own website."},
+    "checked": {"type": "string", "format": "date", "description": "The day the page was read."},
+    "note": {"type": "string", "description": "Context, such as an inconsistency on the vendor's page."}
+  }
+}

@@ -1,0 +1,25 @@
+tool_id,plan,unit,allowance,monthly_usd,annual_billing_monthly_usd,source_url,checked
+zerabooks,"ZeraBooks 1,000",pages,1000,149.00,79.00,https://www.zerabooks.com/pricing,2026-11-05
+zerabooks,"ZeraBooks 2,500",pages,2500,249.00,179.00,https://www.zerabooks.com/pricing,2026-11-05
+zerabooks,"ZeraBooks 5,000",pages,5000,599.00,449.00,https://www.zerabooks.com/pricing,2026-11-05
+docuclipper,Starter,pages,60,29.00,20.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,Business 640,pages,640,159.00,111.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,"Business 1,000",pages,1000,219.00,153.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,"1,500",pages,1500,299.00,209.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,"Enterprise 1,800",pages,1800,399.00,279.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,"3,000",pages,3000,599.00,419.30,https://www.docuclipper.com/pricing/,2026-10-15
+docuclipper,"5,000",pages,5000,899.00,629.30,https://www.docuclipper.com/pricing/,2026-10-15
+autoentry,Bronze,credits,50,13.00,,https://www.autoentry.com/pricing,2026-11-05
+autoentry,Silver,credits,100,24.00,,https://www.autoentry.com/pricing,2026-11-05
+autoentry,Gold,credits,200,46.00,,https://www.autoentry.com/pricing,2026-11-05
+autoentry,Platinum,credits,500,103.00,,https://www.autoentry.com/pricing,2026-11-05
+autoentry,Diamond,credits,1500,298.00,,https://www.autoentry.com/pricing,2026-11-05
+autoentry,Sapphire,credits,2500,469.00,,https://www.autoentry.com/pricing,2026-11-05
+moneythumb,Online 5,conversions,5,24.95,,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+moneythumb,Online 20,conversions,20,49.95,,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+moneythumb,Online 60,conversions,60,99.95,,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+moneythumb,Yearly 60,conversions_per_year,60,,16.66,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+moneythumb,Yearly 240,conversions_per_year,240,,33.33,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+moneythumb,Yearly 800,conversions_per_year,800,,66.66,https://www.moneythumb.com/quickbooks-converters-benefits/,2026-10-15
+hubdoc,Hubdoc,organizations,1,12.00,,https://www.hubdoc.com/pricing,2026-11-05
+dext,Business plan + pay as you go,pages_payg,0,25.21,,https://www.dext.com/us/business/pricing/extraction-pricing?tab=bse,2026-11-05
