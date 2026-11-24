@@ -14,13 +14,13 @@ Which bank statement converter checks its work, and what does a month of stateme
 
 | Tool | Sold by | Per page | File limits | Says it checks printed balances |
 |---|---|---|---|---|
-| [ZeraBooks Convert](https://www.zerabooks.com/bank-statement-converter) | Pages a month: 1,000 for $149, or $79 billed annually | $0.08 to $0.15 at 1,000 pages | PDF, 50 MB, 500 pages | Yes: opening, running and closing balances, per account and cardholder, to the cent |
-| Dext ([vs ZeraBooks](https://www.zerabooks.com/alternatives/dext)) | Documents; every statement page counts; add-on to a Dext plan | $0.26 (bundle) to $0.32 (pay as you go) | PDF or TIFF, 50 MB, 300 pages, one account per file | Not stated |
-| Hubdoc ([vs ZeraBooks](https://www.zerabooks.com/alternatives/hubdoc)) | $12 a month per organization, or included in Xero | | PDF, 35 MB, 100 pages, one statement, Canada and U.S. | Errors when totals don't match or there's no opening or closing date |
-| Nanonets ([vs ZeraBooks](https://www.zerabooks.com/alternatives/nanonets)) | Prepaid credits | Not published | PDF, PNG, JPG, 50 MB | Not mentioned; says to compare rows against the PDF |
-| AutoEntry ([vs ZeraBooks](https://www.zerabooks.com/alternatives/autoentry)) | Credits; 3 per statement page, blank pages included | | Scans and ePDFs | Not stated |
-| DocuClipper ([vs ZeraBooks](https://www.zerabooks.com/alternatives/docuclipper)) | Pages a month | $0.15 to $0.48 | Digital and scanned PDFs | Says it runs reconciliation checks |
-| MoneyThumb ([vs ZeraBooks](https://www.zerabooks.com/alternatives/moneythumb)) | Conversions: one account on one monthly statement | | PDF, OFX, CSV, QFX, QIF in | Compares transaction totals with the statement's summary |
+| ZeraBooks Convert | Pages a month: 1,000 for $149, or $79 billed annually | $0.08 to $0.15 at 1,000 pages | PDF, 50 MB, 500 pages | Yes: opening, running and closing balances, per account and cardholder, to the cent |
+| Dext (vs ZeraBooks) | Documents; every statement page counts; add-on to a Dext plan | $0.26 (bundle) to $0.32 (pay as you go) | PDF or TIFF, 50 MB, 300 pages, one account per file | Not stated |
+| Hubdoc (vs ZeraBooks) | $12 a month per organization, or included in Xero | | PDF, 35 MB, 100 pages, one statement, Canada and U.S. | Errors when totals don't match or there's no opening or closing date |
+| Nanonets (vs ZeraBooks) | Prepaid credits | Not published | PDF, PNG, JPG, 50 MB | Not mentioned; says to compare rows against the PDF |
+| AutoEntry (vs ZeraBooks) | Credits; 3 per statement page, blank pages included | | Scans and ePDFs | Not stated |
+| DocuClipper (vs ZeraBooks) | Pages a month | $0.15 to $0.48 | Digital and scanned PDFs | Says it runs reconciliation checks |
+| MoneyThumb (vs ZeraBooks) | Conversions: one account on one monthly statement | | PDF, OFX, CSV, QFX, QIF in | Compares transaction totals with the statement's summary |
 
 Dext, Hubdoc, Nanonets and AutoEntry were checked November 5, 2026; DocuClipper and MoneyThumb October 11 and 15, 2026 (each row says which). Per-page figures assume every page in the plan is used.
 
@@ -48,19 +48,19 @@ Pass `--statements` (account statements a month, MoneyThumb's unit) and `--organ
 
 A converter that reads every row and drops one has still produced a clean-looking spreadsheet. The only test that catches it is arithmetic: opening balance plus the rows must equal the closing balance the bank printed. Some tools say they do this, some say to compare rows against the PDF yourself, and some don't say. That's the `balance_proof` field, in each vendor's own words.
 
-[ZeraBooks Convert](https://www.zerabooks.com/bank-statement-converter) checks every account against the opening, running and closing balances on the statement, and only marks it Proven when it ties to the cent. It reads digital and [scanned PDFs](https://www.zerabooks.com/bank-statement-ocr) up to 500 pages, and downloads Excel or CSV, including QuickBooks-, Xero- and Sage-ready layouts. It doesn't write .qbo, IIF or OFX files and doesn't connect to accounting software; DocuClipper and MoneyThumb do write those formats, which matters if that's your import route.
+ZeraBooks Convert checks every account against the opening, running and closing balances on the statement, and only marks it Proven when it ties to the cent. It reads digital and scanned PDFs up to 500 pages, and downloads Excel or CSV, including QuickBooks-, Xero- and Sage-ready layouts. It doesn't write .qbo, IIF or OFX files and doesn't connect to accounting software; DocuClipper and MoneyThumb do write those formats, which matters if that's your import route.
 
 ## Bank layouts that trip converters
 
 [`data/bank-statement-layouts.csv`](data/bank-statement-layouts.csv) lists, for five banks, the layout details that break conversions and how ZeraBooks reads them. Each links to its page:
 
-- [Citi statement to Excel](https://www.zerabooks.com/citi-bank-statement-to-excel): combined relationship statements, opening and closing balances printed as lines
-- [U.S. Bank statement to Excel](https://www.zerabooks.com/us-bank-statement-to-excel): periods that aren't calendar months, dates with no year, trailing minus
-- [TD Bank statement to Excel](https://www.zerabooks.com/td-bank-statement-to-excel): Checks Paid in number order with an asterisk at a gap
-- [PNC statement to Excel](https://www.zerabooks.com/pnc-bank-statement-to-excel): overdrawn balances with a trailing minus, fee summary tables
-- [American Express statement to Excel](https://www.zerabooks.com/american-express-statement-to-excel): mid-month billing periods, card member sections, foreign spend lines
+- Citi statement to Excel: combined relationship statements, opening and closing balances printed as lines
+- U.S. Bank statement to Excel: periods that aren't calendar months, dates with no year, trailing minus
+- TD Bank statement to Excel: Checks Paid in number order with an asterisk at a gap
+- PNC statement to Excel: overdrawn balances with a trailing minus, fee summary tables
+- American Express statement to Excel: mid-month billing periods, card member sections, foreign spend lines
 
-[`samples/worked-examples/`](samples/worked-examples/) has the fictional statement from each page as CSV with its printed balances, and the tests prove each one ties. More on what OCR gets wrong on statements: [bank statement OCR](https://www.zerabooks.com/bank-statement-ocr).
+[`samples/worked-examples/`](samples/worked-examples/) has the fictional statement from each page as CSV with its printed balances, and the tests prove each one ties. More on what OCR gets wrong on statements: bank statement OCR.
 
 ## Rules the data follows
 
