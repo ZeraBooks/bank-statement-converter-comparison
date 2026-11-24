@@ -28,6 +28,11 @@ MT_P = "https://www.moneythumb.com/quickbooks-converters-benefits/"
 MT_A = "https://www.moneythumb.com/accounting/"
 MT_S = "https://www.moneythumb.com/spreadsheet-converters-desktop/"
 
+# docs/comparison.md links the source date of only these two ZeraBooks facts;
+# the other ZeraBooks dates are plain text. Every source address stays in
+# data/facts.csv and data/facts.json.
+ZB_LINKED_FIELDS = ("what_it_is", "pricing")
+
 FACTS = [
     ("zerabooks", "what_it_is", "A bank statement converter that reads PDF bank, card, check and brokerage statements and proves each account against its printed balances. Included with the ZeraBooks General Ledger in one subscription.", ZB_CONV, D, "ZeraBooks publishes this dataset."),
     ("zerabooks", "pricing", "1,000 pages a month: $149 billed monthly, or $79 a month billed annually ($948 a year). 2,500 pages: $249 monthly or $179 billed annually. 5,000 pages: $599 monthly or $449 billed annually.", ZB, D, ""),

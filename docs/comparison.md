@@ -1,6 +1,6 @@
 # Bank statement converter comparison
 
-Generated from `data/facts.csv`. Every cell links to the vendor page it was read on, with the date. A blank cell means the vendor's page didn't say. ZeraBooks makes one of these tools.
+Generated from `data/facts.csv`. Every cell gives the date the fact was read on the vendor's own page; the date links to that page, except for most ZeraBooks rows, whose source pages are listed in `data/facts.csv`. A blank cell means the vendor's page didn't say. ZeraBooks makes one of these tools.
 
 ## What it is
 
@@ -36,7 +36,7 @@ _What you pay per: page, document, credit, statement conversion, organization or
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Pages per month | [2026-11-05](https://www.zerabooks.com/pricing) |
+| ZeraBooks Convert | Pages per month | 2026-11-05 |
 | Dext (bank statement extraction) | Documents (every page of a statement counts) | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | Per organization, flat | [2026-11-05](https://www.hubdoc.com/pricing) |
 | Nanonets bank statement converter | Prepaid credits | [2026-11-05](https://nanonets.com/pricing) |
@@ -50,7 +50,7 @@ _Only where the vendor sells by the page or publishes a per-page rate. Blank whe
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | 0.149 monthly or 0.079 billed annually at 1,000 pages; 0.0716 annually at 2,500; 0.0898 annually at 5,000 (Plan price divided by pages, if every page is used.) | [2026-11-05](https://www.zerabooks.com/pricing) |
+| ZeraBooks Convert | 0.149 monthly or 0.079 billed annually at 1,000 pages; 0.0716 annually at 2,500; 0.0898 annually at 5,000 (Plan price divided by pages, if every page is used.) | 2026-11-05 |
 | Dext (bank statement extraction) | 0.26 in the 50-document bundle; 0.32 pay as you go (Plus the Dext plan.) | [2026-11-05](https://www.dext.com/us/business/pricing/extraction-pricing?tab=bse) |
 | Hubdoc | | |
 | Nanonets bank statement converter | | |
@@ -64,7 +64,7 @@ _Trial terms as stated._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | 7 days; a card at checkout, nothing charged for 7 days. | [2026-11-05](https://www.zerabooks.com/pricing) |
+| ZeraBooks Convert | 7 days; a card at checkout, nothing charged for 7 days. | 2026-11-05 |
 | Dext (bank statement extraction) | 14 days, no card; free credits include 10 sheets of bank statement extraction. | [2026-11-05](https://www.dext.com/us/pricing/prepare-direct/) |
 | Hubdoc | 30 days, no card. | [2026-11-05](https://www.hubdoc.com/pricing) |
 | Nanonets bank statement converter | | |
@@ -78,7 +78,7 @@ _File types, size and page limits per file._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | PDF only, up to 50 MB and 500 pages per file. | [2026-11-05](https://www.zerabooks.com/help/convert-documents/upload-documents) |
+| ZeraBooks Convert | PDF only, up to 50 MB and 500 pages per file. | 2026-11-05 |
 | Dext (bank statement extraction) | One statement for a single account per file; 50 MB, 300 pages; scans at 200 dpi. | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | PDF, all pages, up to 100 pages and 35 MB; 200 DPI minimum; one statement only; English; up to 40 inches / 2,880 points. | [2026-11-05](https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US) |
 | Nanonets bank statement converter | PDF, PNG, JPG up to 50 MB. | [2026-11-05](https://nanonets.com/bank-statement-converter/) |
@@ -92,7 +92,7 @@ _File types it reads._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | PDF (digital or scanned) | [2026-11-05](https://www.zerabooks.com/help/convert-documents/upload-documents) |
+| ZeraBooks Convert | PDF (digital or scanned) | 2026-11-05 |
 | Dext (bank statement extraction) | PDF or TIFF | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | PDF | [2026-11-05](https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US) |
 | Nanonets bank statement converter | PDF, PNG, JPG | [2026-11-05](https://nanonets.com/bank-statement-converter/) |
@@ -106,7 +106,7 @@ _File types it writes._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Excel and CSV, in Standard, Money in and out, QuickBooks-ready, Xero-ready, Sage-ready and All details layouts. (CSV and Excel only; no .qbo, IIF or OFX files.) | [2026-11-05](https://www.zerabooks.com/help/convert-export/choose-a-download-format) |
+| ZeraBooks Convert | Excel and CSV, in Standard, Money in and out, QuickBooks-ready, Xero-ready, Sage-ready and All details layouts. (CSV and Excel only; no .qbo, IIF or OFX files.) | 2026-11-05 |
 | Dext (bank statement extraction) | CSV export; original PDF downloadable. (Statements can't be published to accounting software.) | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | CSV for QuickBooks or Xero; a Xero CSV is split into a zip above 1,000 transactions. | [2026-11-05](https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US) |
 | Nanonets bank statement converter | XLSX, CSV, JSON | [2026-11-05](https://nanonets.com/bank-statement-converter/) |
@@ -120,7 +120,7 @@ _The statement columns the vendor says it captures._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Date, Description, Amount, Money In, Money Out, Balance, Account, Account Last 4, Cardholder, Type, Check Number, Source File. | [2026-11-05](https://www.zerabooks.com/help/convert-export/choose-a-download-format) |
+| ZeraBooks Convert | Date, Description, Amount, Money In, Money Out, Balance, Account, Account Last 4, Cardholder, Type, Check Number, Source File. | 2026-11-05 |
 | Dext (bank statement extraction) | | |
 | Hubdoc | Debit statements: date, description, amount. Credit statements: posted date, transaction date, description, amount. | [2026-11-05](https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US) |
 | Nanonets bank statement converter | | |
@@ -134,7 +134,7 @@ _Whether the vendor says it checks extracted rows against the statement's printe
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Yes. Each account (and each cardholder on card statements) is checked against the opening, running and closing balances the statement prints; it's marked Proven only when it ties to the cent. | [2026-11-05](https://www.zerabooks.com/help/convert-documents/how-convert-proves-a-statement) |
+| ZeraBooks Convert | Yes. Each account (and each cardholder on card statements) is checked against the opening, running and closing balances the statement prints; it's marked Proven only when it ties to the cent. | 2026-11-05 |
 | Dext (bank statement extraction) | | |
 | Hubdoc | Errors when totals don't match or there's no opening or closing date. | [2026-11-05](https://support.hubdoc.com/hc/en-us/articles/16660344358925-Extract-bank-statement-data-CA-US) |
 | Nanonets bank statement converter | Not mentioned. The page's FAQ says to review and validate by comparing rows against the original PDF, and links each transaction back to its place on the statement. | [2026-11-05](https://nanonets.com/bank-statement-converter/) |
@@ -190,7 +190,7 @@ _How it connects to or prepares files for accounting software._
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Downloads QuickBooks-, Xero- and Sage-ready CSV layouts to import. No direct connection to accounting software. | [2026-11-05](https://www.zerabooks.com/help/convert-export/choose-a-download-format) |
+| ZeraBooks Convert | Downloads QuickBooks-, Xero- and Sage-ready CSV layouts to import. No direct connection to accounting software. | 2026-11-05 |
 | Dext (bank statement extraction) | Bank statements can't be published to accounting software; synced bank accounts can't be used. | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | Syncs to Xero and QuickBooks Online. | [2026-11-05](https://www.hubdoc.com/pricing) |
 | Nanonets bank statement converter | | |
@@ -204,7 +204,7 @@ _What counts against the allowance: blank pages, duplicates, deleted files, roll
 
 | Tool | Value | Source |
 |---|---|---|
-| ZeraBooks Convert | Monthly pages reset each month; annual billing gives the year's 12,000 pages upfront. | [2026-11-05](https://www.zerabooks.com/pricing) |
+| ZeraBooks Convert | Monthly pages reset each month; annual billing gives the year's 12,000 pages upfront. | 2026-11-05 |
 | Dext (bank statement extraction) | Every page of a processed statement counts, including pages with no transactions, even if deleted. Bundle documents don't roll over. Over the limit, data isn't extracted until the next bill date or an upgrade. | [2026-11-05](https://help.dext.com/en/articles/455059-how-to-upload-bank-statements-in-dext) |
 | Hubdoc | | |
 | Nanonets bank statement converter | Credits are prepaid, shared and never expire. | [2026-11-05](https://nanonets.com/pricing) |

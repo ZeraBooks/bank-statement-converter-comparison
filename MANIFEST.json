@@ -64,8 +64,8 @@
     },
     {
       "path": "docs/comparison.md",
-      "bytes": 15580,
-      "sha256": "8e445bdfa633791eff16ca22aceb5494fbccf342aa285c9a75e0eedae43bbca9"
+      "bytes": 15104,
+      "sha256": "2c786e3cebe1b6aa2ea1df6856e1e10bc25de6e56ea38dc4d46b7d13f0393ef9"
     },
     {
       "path": "samples/worked-examples/amex-three-card-members-2026-10.balances.json",

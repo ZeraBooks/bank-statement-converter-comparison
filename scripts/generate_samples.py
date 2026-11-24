@@ -17,7 +17,7 @@ from decimal import Decimal
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 sys.path.insert(0, os.path.join(ROOT, "cli"))
-from facts_source import FACTS, PLANS  # noqa: E402
+from facts_source import FACTS, PLANS, ZB_LINKED_FIELDS  # noqa: E402
 
 EXAMPLES = {
     "citi-two-accounts-2026-06": {
@@ -80,14 +80,17 @@ def main():
         w.writerow(["tool_id", "plan", "unit", "allowance", "monthly_usd", "annual_billing_monthly_usd", "source_url", "checked"])
         w.writerows([[p[0], p[1], p[2], p[3], p[4] or "", p[5] or "", p[6], p[7]] for p in PLANS])
     md = ["# Bank statement converter comparison", "",
-          "Generated from `data/facts.csv`. Every cell links to the vendor page it was read on, with the date. A blank cell means the vendor's page didn't say. ZeraBooks makes one of these tools.", ""]
+          "Generated from `data/facts.csv`. Every cell gives the date the fact was read on the vendor's own page; the date links to that page, except for most ZeraBooks rows, whose source pages are listed in `data/facts.csv`. A blank cell means the vendor's page didn't say. ZeraBooks makes one of these tools.", ""]
     for f in fields:
         md += [f"## {f['label']}", "", f"_{f['what_it_records']}_", "", "| Tool | Value | Source |", "|---|---|---|"]
         for t in tools:
             r = by.get((t["tool_id"], f["field"]))
             if r:
                 val = r["value"].replace("|", "/") + (f" ({r['note']})" if r["note"] else "")
-                md.append(f"| {t['tool']} | {val} | [{r['checked']}]({r['source_url']}) |")
+                if "zerabooks.com" in r["source_url"] and r["field"] not in ZB_LINKED_FIELDS:
+                    md.append(f"| {t['tool']} | {val} | {r['checked']} |")
+                else:
+                    md.append(f"| {t['tool']} | {val} | [{r['checked']}]({r['source_url']}) |")
             else:
                 md.append(f"| {t['tool']} | | |")
         md.append("")
